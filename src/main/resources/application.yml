@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: board-project
+
+#  profiles:
+##    active: test  # ?? ?? ?? (prod / test ? ?? ??)
+
+server:
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
