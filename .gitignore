@@ -39,3 +39,31 @@ out/
 .env*
 application-prod.yml
 docker-compose.yml
+
+
+# === Java / Spring ===
+/build
+/out
+/.gradle
+/bin
+
+# === IDE ===
+/.idea
+/.vscode
+
+# === Logs / Temp ===
+*.log
+*.tmp
+*.pid
+
+# === Env files ===
+.env
+.env.*
+
+# === Database / Docker Volumes ===
+mysql_data/
+*.sock
+
+# === OS ===
+.DS_Store
+Thumbs.db

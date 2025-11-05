@@ -16,6 +16,8 @@ Spring Boot 기반 학습 플랫폼 백엔드 프로젝트입니다.
 ## 🚀 실행 방법
 ```bash
 ./gradlew bootRun
+- dev환경
+./gradlew bootRun --args='--spring.profiles.active=dev'
 
 
 
@@ -23,3 +25,4 @@ Spring Boot 기반 학습 플랫폼 백엔드 프로젝트입니다.
 ## 🚀 실행 방법
 ```bash
 ./gradlew bootRun# boardAndTodo
+./gradlew clean build -> docker compose up --build -d

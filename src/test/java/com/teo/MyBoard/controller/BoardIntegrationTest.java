@@ -16,6 +16,8 @@ import org.springframework.test.context.ActiveProfiles;
 import org.springframework.transaction.annotation.Transactional;
 
 import static org.assertj.core.api.Assertions.assertThat;
+
+//TestRestTemplate 사용
 @SpringBootTest(
         classes = MyBoardApplication.class,
         webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT

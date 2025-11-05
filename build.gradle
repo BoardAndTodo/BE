@@ -49,7 +49,15 @@ dependencies {
 	//스웨거
 	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.6.0'
 
+
+
+	}
+
+test {
+	systemProperty "spring.profiles.active", "test"
 }
+
+
 
 tasks.named('test') {
 	useJUnitPlatform()

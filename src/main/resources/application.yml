@@ -2,8 +2,8 @@ spring:
   application:
     name: board-project
 
-#  profiles:
-##    active: test  # ?? ?? ?? (prod / test ? ?? ??)
+  profiles:
+    active: dev  # ?? ?? ?? (prod / test ? ?? ??)
 
 server:
   servlet:

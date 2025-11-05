@@ -8,5 +8,6 @@ import lombok.Setter;
 public class CreateTodoDto {
 
     private String content;
-    private boolean isCompleted;
+    private boolean isCompleted = true;
+
 }
